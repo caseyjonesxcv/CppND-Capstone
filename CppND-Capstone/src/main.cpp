@@ -3,7 +3,7 @@
 #include "game.h"
 #include "renderer.h"
 #include <SDL2/SDL.h>
-#include <SDL/SDL_image.h>
+
 
 int main() {
   constexpr std::size_t kFramesPerSecond{60};
