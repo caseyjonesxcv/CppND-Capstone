@@ -18,8 +18,6 @@ class Game {
 
  private:
   Snake snake;
-  //Alien alien;
-  //SDL_Point food;
   std::vector<SDL_Point> food;
 
   std::random_device dev;
