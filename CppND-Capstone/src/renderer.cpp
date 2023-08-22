@@ -83,13 +83,6 @@ void Renderer::Render(Snake const snake, std::vector<SDL_Point> const &food) {
   block.w = screen_width / grid_width;
   block.h = screen_height / grid_height;
   
-  /*
-  SDL_Rect alien_rect;
-  alien_rect.x = food.x * block.w;
-  alien_rect.y = food.y * block.h;
-  alien_rect.w = 50;
-  alien_rect.h = 50;
-*/
   SDL_Rect ship_rect;
   ship_rect.x = static_cast<int>(snake.head_x) * block.w;
   ship_rect.y = static_cast<int>(snake.head_y) * block.h;
