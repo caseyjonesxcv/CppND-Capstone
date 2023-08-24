@@ -1,6 +1,17 @@
-# CPPND: Capstone Snake Game Example
+# CPPND: Alien Invasion
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+This game is a slight twist on old scool alien games. You have no way to fight back so dodge as many aliens as you can!
+Score goes up for every alien that hits the bottom of the screen
+Controls:
+  * W - move ship up
+  * S - move ship down
+  * A - move ship left
+  * D - move ship right
+
+  * 
+ 
+
+This is built from a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
 <img src="snake_game.gif"/>
 
