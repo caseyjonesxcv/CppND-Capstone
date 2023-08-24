@@ -10,16 +10,17 @@ Controls:
   * A - move ship left
   * D - move ship right
 
-Rubric points: 
-Loops, Functions, I/O
+Rubric points
+Loops, Functions, I/O:
   * Project is built in functions
   * Read in .bmp files for game animation (this is done in renderer.h and renderer.cpp)
   * Reads input from user in controller.cpp
 
-Object Oriented Programming
+Object Oriented Programming:
   * Code is organized into classes
   * Data members are specified as public or private
-Memory Management
+
+Memory Management:
   * Multiple functions use pass by reference in project
  
 
