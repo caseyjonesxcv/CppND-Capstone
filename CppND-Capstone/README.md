@@ -1,7 +1,8 @@
 # CPPND: Alien Invasion
 
 This game is a slight twist on old scool alien games. You have no way to fight back so dodge as many aliens as you can!
-Score goes up for every alien that hits the bottom of the screen
+Score goes up for every alien that hits the bottom of the screen.
+
 Controls:
   * W - move ship up
   * S - move ship down
