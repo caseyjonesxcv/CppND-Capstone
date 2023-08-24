@@ -39,7 +39,7 @@ void Game::Run(Controller const &controller, Renderer &renderer,
 
     // After every second, update the window title.
     if (frame_end - title_timestamp >= 1000) {
-      renderer.UpdateWindowTitle(/*score,*/ frame_count);
+      renderer.UpdateWindowTitle(score, frame_count);
       frame_count = 0;
       title_timestamp = frame_end;
       
@@ -77,8 +77,6 @@ void Game::PlaceFood() {
   }
 
 
-
-
 void Game::Update() {
   if (!snake.alive) return;
 
@@ -91,6 +89,10 @@ void Game::Update() {
   for(int i = 0; i < food.size(); i++){
   if (food[i].x == new_x && food[i].y == new_y) {
     snake.alive = false;
+    }
+   if (food[i].y >= 30) {
+    food.erase(food.begin());
+    score++;
     }
   } 
 }

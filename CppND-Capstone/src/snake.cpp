@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iostream>
 
+
 void Snake::Update() {
   switch (direction) {
     case Direction::kNone:

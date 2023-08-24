@@ -82,7 +82,7 @@ void Renderer::Render(Snake const snake, std::vector<SDL_Point> const &food) {
   SDL_Rect block;
   block.w = screen_width / grid_width;
   block.h = screen_height / grid_height;
-  
+
   SDL_Rect ship_rect;
   ship_rect.x = static_cast<int>(snake.head_x) * block.w;
   ship_rect.y = static_cast<int>(snake.head_y) * block.h;
@@ -133,7 +133,7 @@ void Renderer::Render(Snake const snake, std::vector<SDL_Point> const &food) {
   SDL_RenderPresent(sdl_renderer);
 }
 
-void Renderer::UpdateWindowTitle(/*int score,*/ int fps) {
-  std::string title{/*"Snake Score: " + std::to_string(score) + */" FPS: " + std::to_string(fps)};
+void Renderer::UpdateWindowTitle(int score, int fps) {
+  std::string title{"Aliens Avoided: " + std::to_string(score) + " FPS: " + std::to_string(fps)};
   SDL_SetWindowTitle(sdl_window, title.c_str());
 }
