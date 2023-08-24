@@ -10,6 +10,7 @@ Controls:
   * A - move ship left
   * D - move ship right
 
+
 Rubric points
 Loops, Functions, I/O:
   * Project is built in functions
