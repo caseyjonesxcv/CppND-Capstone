@@ -11,7 +11,9 @@ Controls:
   * D - move ship right
 
 
+
 Rubric points
+
 Loops, Functions, I/O:
   * Project is built in functions
   * Read in .bmp files for game animation (this is done in renderer.h and renderer.cpp)
